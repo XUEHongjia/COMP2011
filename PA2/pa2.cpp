@@ -42,7 +42,7 @@ bool solve(int input[], int size, int target, int result[], int& resultSize, int
     if ( inputpos == size)
     {
         int sum = arraySum(result,resultSize);
-        if ( sum == target )
+        if ( sum == target && resultSize != 0 )
       {
         return true;
       }
